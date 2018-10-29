@@ -15,6 +15,7 @@
 		48E701A8218723F00042D702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E701A7218723F00042D702 /* main.m */; };
 		48E701B2218723F00042D702 /* SHHKURLDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E701B1218723F00042D702 /* SHHKURLDemoTests.m */; };
 		48E701BD218723F00042D702 /* SHHKURLDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E701BC218723F00042D702 /* SHHKURLDemoUITests.m */; };
+		48E701CC218724370042D702 /* NSURL+HKURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E701CB218724370042D702 /* NSURL+HKURL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		48E701B8218723F00042D702 /* SHHKURLDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHHKURLDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E701BC218723F00042D702 /* SHHKURLDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHHKURLDemoUITests.m; sourceTree = "<group>"; };
 		48E701BE218723F00042D702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E701CA218724370042D702 /* NSURL+HKURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+HKURL.h"; sourceTree = "<group>"; };
+		48E701CB218724370042D702 /* NSURL+HKURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+HKURL.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				48E70199218723EC0042D702 /* AppDelegate.m */,
 				48E7019B218723EC0042D702 /* ViewController.h */,
 				48E7019C218723EC0042D702 /* ViewController.m */,
+				48E701CA218724370042D702 /* NSURL+HKURL.h */,
+				48E701CB218724370042D702 /* NSURL+HKURL.m */,
 				48E7019E218723EC0042D702 /* Main.storyboard */,
 				48E701A1218723F00042D702 /* Assets.xcassets */,
 				48E701A3218723F00042D702 /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48E7019D218723EC0042D702 /* ViewController.m in Sources */,
+				48E701CC218724370042D702 /* NSURL+HKURL.m in Sources */,
 				48E701A8218723F00042D702 /* main.m in Sources */,
 				48E7019A218723EC0042D702 /* AppDelegate.m in Sources */,
 			);
